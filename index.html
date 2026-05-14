@@ -3,44 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lille Live Bus Departures | Transport News</title>
-    <meta name="description" content="Live departure times for the Ilevia bus network in Lille, France. Stay updated with real-time transport news.">
+    <title>G&M Virk Transport Inc. | Logistics Excellence</title>
+    <meta name="description" content="Reliable Transportation with 4+ Years Experience in Saskatchewan. State-of-the-art fleet and cutting-edge technology.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Load FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background-elements">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-    </div>
     
-    <main class="container">
-        <header>
-            <div class="header-content">
-                <h1>Lille <span class="highlight">Transit Live</span></h1>
-                <p>Real-time Bus Departures</p>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-left">
+                <span class="contact-item"><i class="fa-solid fa-phone"></i> (306) 761-8555</span>
+                <span class="contact-item"><i class="fa-regular fa-envelope"></i> safety@gmvirk.ca</span>
             </div>
-            <div class="time-display" id="current-time">
-                --:--:--
+            <div class="top-bar-right">
+                <span>Reliable Transportation • 4+ Years Experience • Saskatchewan</span>
             </div>
-        </header>
+        </div>
+    </div>
 
-        <section class="news-ticker">
-            <div class="ticker-content">
-                <span class="ticker-label">NEWS:</span>
-                <marquee behavior="scroll" direction="left" id="news-text">
-                    Liane 5: Expect 5 minute delays due to heavy traffic on Boulevard Carnot. • Line 14: Diversion in place near République Beaux-Arts starting 14:00. • CITL running smoothly.
-                </marquee>
+    <!-- Main Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                G&M Virk Transport Inc.
             </div>
-        </section>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
-        <section class="bus-grid" id="bus-grid">
-            <!-- Bus cards will be injected here by JS -->
-        </section>
-    </main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Logistics Excellence</h1>
+            <p>State-of-the-art fleet and cutting-edge technology</p>
+            <div class="hero-buttons">
+                <a href="#quote" class="btn btn-primary">Get a Quote</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+        <!-- Right arrow for slider effect as shown in Figma -->
+        <div class="slider-arrow slider-arrow-right">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+    </section>
 
+    <!-- Script tag (kept in case we need it later, though it's empty) -->
     <script src="script.js"></script>
 </body>
 </html>
